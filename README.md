@@ -1,4 +1,5 @@
 # LatihanRecyclerViewAndroid
+![MAD Scoreboard](summary.png)
 ## Author: Lalu Naufal Azmi
 ### Library used
  * Circle Image View [HERE](https://github.com/hdodenhof/CircleImageView)
