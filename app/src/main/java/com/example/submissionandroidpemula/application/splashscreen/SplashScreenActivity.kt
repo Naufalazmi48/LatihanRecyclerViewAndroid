@@ -17,7 +17,10 @@ class SplashScreenActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash_screen)
 
-        if (!isVisibleSplashScreen()) moveToMainActivity()
+        if (!isVisibleSplashScreen()) {
+            moveToMainActivity()
+            return
+        }
 
         activityScope.launch {
             delay(3000)
@@ -30,6 +33,7 @@ class SplashScreenActivity : AppCompatActivity() {
         startActivity(Intent(this@SplashScreenActivity, MainActivity::class.java))
         finish()
     }
+
     private fun isVisibleSplashScreen() = sharedPreferences.getStatusVisibilitySplashScreen()
     private fun setVisibilitySplashScreen() =
         sharedPreferences.setStatusVisibilitySplashScreen(

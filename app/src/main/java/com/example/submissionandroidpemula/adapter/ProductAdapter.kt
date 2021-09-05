@@ -1,6 +1,5 @@
 package com.example.submissionandroidpemula.adapter
 
-import android.annotation.SuppressLint
 import android.content.Context
 import android.net.Uri
 import android.view.LayoutInflater

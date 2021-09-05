@@ -44,12 +44,4 @@ class MainActivity : AppCompatActivity(), NavigationBarView.OnItemSelectedListen
         }
         return true
     }
-
-    fun updateBadges() {
-        binding.bottomNavBar.getOrCreateBadge(R.id.cart).isVisible = true
-    }
-
-    fun removeBadges() {
-        binding.bottomNavBar.getOrCreateBadge(R.id.cart).isVisible = false
-    }
 }

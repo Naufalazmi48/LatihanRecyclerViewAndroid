@@ -5,7 +5,6 @@ import android.content.SharedPreferences
 import android.util.Log
 import androidx.core.content.edit
 import com.example.submissionandroidpemula.core.domain.model.Product
-import java.lang.NullPointerException
 
 class SharedPreference(private val context: Context) : Databases, ISharedPreference {
     private val CART_PREFERENCES = "CART_PREFERENCES"
