@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Tokoku</string>
+    <string name="home">Home</string>
+    <string name="cart">Cart</string>
+    <string name="about">About</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="introducing">\"Hola amigos! ma name is Lalu Naufal Azmi.\nI\'m an Android Enthusiast(Kotlin/Java)\"</string>
+    <string name="name">Lalu Naufal Azmi</string>
+    <string name="email">naufalazmi020@gmail.com</string>
+    <string name="campus">Bumigora University</string>
+    <string name="about_follow_me_on">Follow me on</string>
+    <string name="about_description_linkedin">Linkedin</string>
+    <string name="about_description_github">Github</string>
+    <string name="about_description_Instagram">Instagram</string>
+    <string name="product_poster">Product Poster</string>
+    <string name="back">Back</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="delete_from_cart">Delete from Cart</string>
+    <string name="spesification">Spesification</string>
+    <string name="description">Description</string>
+    <string name="empty_cart">Empty Cart</string>
+</resources>

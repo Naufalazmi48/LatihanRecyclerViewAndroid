@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".application.fragments.AboutFragment">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/avatar"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/name"
+        style="@style/TextHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_margin="24dp"
+        android:text="@string/name"
+        app:layout_constraintLeft_toLeftOf="@id/avatar"
+        app:layout_constraintRight_toRightOf="@id/avatar"
+        app:layout_constraintTop_toBottomOf="@id/avatar" />
+
+    <TextView
+        android:id="@+id/introduce"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="18dp"
+        android:text="@string/introducing"
+        android:textAlignment="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/name" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:text="@string/email"
+        android:textAlignment="viewEnd"
+        app:drawableStartCompat="@drawable/ic_email"
+        app:drawableTint="@color/teal_700"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/introduce" />
+
+    <TextView
+        android:id="@+id/campus"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/campus"
+        android:textAlignment="viewEnd"
+        app:drawableStartCompat="@drawable/ic_campus"
+        app:drawableTint="@color/teal_700"
+        app:layout_constraintLeft_toLeftOf="@id/email"
+        app:layout_constraintRight_toRightOf="@id/email"
+        app:layout_constraintTop_toBottomOf="@id/email" />
+
+    <TextView
+        android:id="@+id/followMeOn"
+        style="@style/TextTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/about_follow_me_on"
+        app:layout_constraintLeft_toLeftOf="@id/campus"
+        app:layout_constraintRight_toRightOf="@id/campus"
+        app:layout_constraintTop_toBottomOf="@id/campus" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/followMeOn">
+
+        <ImageButton
+            android:id="@+id/linkedin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/transparent"
+            android:contentDescription="@string/about_description_linkedin"
+            android:src="@drawable/ic_linkedin" />
+
+        <ImageButton
+            android:id="@+id/github"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/transparent"
+            android:contentDescription="@string/about_description_github"
+            android:src="@drawable/ic_github" />
+
+        <ImageButton
+            android:id="@+id/instagram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/transparent"
+            android:contentDescription="@string/about_description_Instagram"
+            android:src="@drawable/ic_instagram" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

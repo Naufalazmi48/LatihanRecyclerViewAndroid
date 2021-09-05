@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/container"
+        android:layout_width="0dp"
+        android:layout_height="300dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:cardCornerRadius="30dp"
+        android:layout_marginHorizontal="18dp"
+        >
+        <ImageView
+            android:id="@+id/poster"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toBottomOf="@id/container"
+            app:layout_constraintLeft_toLeftOf="@id/container"
+            app:layout_constraintRight_toRightOf="@id/container"
+            app:layout_constraintTop_toTopOf="@id/container"
+            android:contentDescription="@string/product_poster" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="@id/container"
+            app:layout_constraintBottom_toBottomOf="@id/container"
+            android:elevation="2dp"
+            android:padding="8dp"
+            android:layout_gravity="bottom"
+            app:layout_constraintRight_toRightOf="@id/container"
+            android:background="@color/cardview_dark_background">
+            <RatingBar
+                android:id="@+id/ratingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Widget.AppCompat.RatingBar.Small"
+                android:progressTint="@android:color/holo_orange_light"
+                android:layout_marginStart="16dp"
+                android:numStars="5"
+                android:layout_gravity="start"
+                />
+
+            <TextView
+                android:id="@+id/productName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text = "Asus TUF Gaming"
+                android:layout_marginHorizontal="15dp"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+                android:layout_below="@id/ratingBar"
+                android:textColor="@color/white"
+                />
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text = "Rp.500.000.000"
+                android:layout_marginHorizontal="15dp"
+                android:textStyle="normal"
+                android:gravity="end"
+                android:textColor="@color/white"
+                />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

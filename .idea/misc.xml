@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Dicoding/SubmissionAndroidPemula/app/src/main/res/drawable/ic_cart.xml" value="0.2203125" />
+        <entry key="..\:/Dicoding/SubmissionAndroidPemula/app/src/main/res/drawable/main_bottom_navbar_container.xml" value="0.2203125" />
+        <entry key="..\:/Dicoding/SubmissionAndroidPemula/app/src/main/res/layout/activity_detail_product.xml" value="0.22704081632653061" />
+        <entry key="..\:/Dicoding/SubmissionAndroidPemula/app/src/main/res/layout/activity_splash_screen.xml" value="0.5" />
+        <entry key="..\:/Dicoding/SubmissionAndroidPemula/app/src/main/res/layout/fragment_about.xml" value="0.1634963768115942" />
+        <entry key="..\:/Dicoding/SubmissionAndroidPemula/app/src/main/res/layout/fragment_cart.xml" value="0.33" />
+        <entry key="..\:/Dicoding/SubmissionAndroidPemula/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/Dicoding/SubmissionAndroidPemula/app/src/main/res/layout/product_item.xml" value="0.33" />
+        <entry key="..\:/Dicoding/app/src/main/res/drawable/ic_github.xml" value="0.2203125" />
+        <entry key="..\:/Dicoding/app/src/main/res/drawable/ic_instagram.xml" value="0.2203125" />
+        <entry key="..\:/Dicoding/app/src/main/res/drawable/ic_linkedin.xml" value="0.2203125" />
+        <entry key="..\:/Dicoding/app/src/main/res/drawable/main_bottom_navbar_container.xml" value="0.2203125" />
+        <entry key="..\:/Dicoding/app/src/main/res/font/ubuntu_bold.xml" value="0.234375" />
+        <entry key="..\:/Dicoding/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Dicoding/app/src/main/res/layout/fragment_about.xml" value="0.25" />
+        <entry key="..\:/Dicoding/app/src/main/res/layout/fragment_cart.xml" value="0.17798913043478262" />
+        <entry key="..\:/Dicoding/app/src/main/res/layout/fragment_home.xml" value="0.17798913043478262" />
+        <entry key="..\:/Dicoding/app/src/main/res/menu/main_bottom_navbar_items.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
